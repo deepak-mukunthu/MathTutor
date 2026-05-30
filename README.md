@@ -2,6 +2,12 @@
 
 An interactive math tutor and quiz master designed to help middle school students learn and master mathematics through engaging practice sessions.
 
+## 🚀 Live Demo
+
+**Try it now:** [https://deepak-mukunthu.github.io/MathTutor/](https://deepak-mukunthu.github.io/MathTutor/)
+
+No installation required - just click and start learning!
+
 ## Features
 
 - **Multiple Topics**: Covers all middle school math topics
@@ -14,15 +20,25 @@ An interactive math tutor and quiz master designed to help middle school student
 
 - **Adaptive Difficulty**: Choose from Easy, Medium, or Hard difficulty levels
 
-- **Interactive Learning**:
+- **Smart Learning System**:
   - 10 questions per quiz session
-  - Hints available for each question
-  - Immediate feedback with explanations
-  - Detailed results review
+  - Multiple attempts (up to 3) per question
+  - Progressive hints that activate after wrong answers
+  - Coaching feedback that adapts to student performance
+  - Detailed explanations when answers are revealed
 
-- **Progress Tracking**: Visual progress bar and score tracking
+- **Coaching Personality**:
+  - Polite yet assertive guidance
+  - Encourages persistence and learning from mistakes
+  - Celebrates successes based on attempt count
+  - Tracks hint usage and attempts
 
-- **Beautiful UI**: Modern, colorful interface designed for students
+- **Progress Tracking**: 
+  - Visual progress bar during quizzes
+  - Detailed performance metrics (first-try correct, hints used, attempts)
+  - Comprehensive results review with explanations
+
+- **Beautiful UI**: Modern gradient design with smooth animations
 
 ## Getting Started
 
