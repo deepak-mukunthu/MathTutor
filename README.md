@@ -10,6 +10,8 @@ An interactive math tutor and quiz master designed to help middle school student
 
 **No installation required** - click the link above to start learning math right away!
 
+📸 **[View Screenshots & Demo →](demos/DEMO.md)** - See the app in action with detailed walkthroughs
+
 ## Features
 
 - **Multiple Topics**: Covers all middle school math topics
