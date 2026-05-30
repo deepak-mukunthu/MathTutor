@@ -1,12 +1,14 @@
 # 🧮 Math Tutor
 
+[![Live Demo](https://img.shields.io/badge/demo-live-success?style=for-the-badge&logo=github)](https://deepak-mukunthu.github.io/MathTutor/)
+[![GitHub](https://img.shields.io/badge/GitHub-MathTutor-blue?style=for-the-badge&logo=github)](https://github.com/deepak-mukunthu/MathTutor)
+[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
+
 An interactive math tutor and quiz master designed to help middle school students learn and master mathematics through engaging practice sessions.
 
-## 🚀 Live Demo
+## 🚀 [Try the Live Demo →](https://deepak-mukunthu.github.io/MathTutor/)
 
-**Try it now:** [https://deepak-mukunthu.github.io/MathTutor/](https://deepak-mukunthu.github.io/MathTutor/)
-
-No installation required - just click and start learning!
+**No installation required** - click the link above to start learning math right away!
 
 ## Features
 
