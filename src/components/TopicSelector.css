@@ -1,0 +1,134 @@
+.topic-selector {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 48px;
+  margin-bottom: 5px;
+  color: #667eea;
+}
+
+.header .tagline {
+  font-size: 18px;
+  color: #999;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.welcome-message {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: linear-gradient(135deg, #667eea15, #764ba215);
+  padding: 20px 25px;
+  border-radius: 12px;
+  margin-top: 20px;
+  border-left: 4px solid #667eea;
+  text-align: left;
+}
+
+.welcome-message .coach-icon {
+  font-size: 36px;
+  flex-shrink: 0;
+}
+
+.welcome-message p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.difficulty-selector {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.difficulty-selector label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.difficulty-hint {
+  font-size: 14px;
+  color: #667eea;
+  font-weight: 500;
+  margin-bottom: 12px;
+  min-height: 20px;
+  font-style: italic;
+}
+
+.difficulty-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.difficulty-buttons button {
+  background: #f0f0f0;
+  color: #333;
+  padding: 10px 30px;
+}
+
+.difficulty-buttons button.active {
+  background: #667eea;
+  color: white;
+}
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.topic-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+  text-align: center;
+}
+
+.topic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.4);
+}
+
+.topic-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.topic-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.topic-card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.difficulty-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}

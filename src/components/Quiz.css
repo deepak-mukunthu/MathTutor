@@ -1,0 +1,267 @@
+.quiz {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  min-height: 500px;
+}
+
+.quiz.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #667eea;
+}
+
+.quiz-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.quiz-header h2 {
+  color: #667eea;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.coach-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #667eea15, #764ba215);
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border-left: 4px solid #667eea;
+  min-height: 60px;
+}
+
+.coach-icon {
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+.coach-message p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  transition: width 0.3s ease;
+}
+
+.question-counter {
+  color: #666;
+  font-size: 14px;
+}
+
+.question-card {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 40px;
+  transition: all 0.3s ease;
+}
+
+.question-card.correct {
+  background: #d4edda;
+  border: 2px solid #28a745;
+}
+
+.question-card.incorrect {
+  background: #fff3cd;
+  border: 2px solid #ffc107;
+}
+
+.question-card.gave-up {
+  background: #f8d7da;
+  border: 2px solid #dc3545;
+}
+
+.question-text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+form input[type="number"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+form input[type="number"]:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.attempt-tracker {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: #667eea;
+  margin-bottom: 20px;
+  padding: 8px;
+  background: rgba(102, 126, 234, 0.1);
+  border-radius: 6px;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  flex: 1;
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.hint-btn {
+  background: #ffc107;
+  color: #856404;
+  font-weight: 600;
+}
+
+.show-answer-btn {
+  background: #dc3545;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px;
+  flex: 0 0 auto;
+}
+
+.hint {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  border-radius: 8px;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hint strong {
+  color: #856404;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.hint-encouragement {
+  margin-top: 12px;
+  font-size: 14px;
+  font-style: italic;
+  color: #856404;
+  font-weight: 600;
+}
+
+.feedback {
+  text-align: center;
+  padding: 20px;
+}
+
+.feedback-icon {
+  font-size: 64px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.correct-feedback .feedback-icon {
+  color: #28a745;
+}
+
+.incorrect-feedback .feedback-icon {
+  color: #dc3545;
+}
+
+.try-again-feedback {
+  animation: shake 0.5s ease;
+}
+
+.try-again-feedback .feedback-icon {
+  color: #ffc107;
+}
+
+.gave-up-feedback .feedback-icon {
+  color: #dc3545;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  75% { transform: translateX(10px); }
+}
+
+.feedback-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.feedback-note {
+  font-size: 15px;
+  font-weight: 500;
+  color: #28a745;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.explanation {
+  font-size: 16px;
+  color: #333;
+  margin-top: 15px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.explanation strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #dc3545;
+}
+
+.learning-note {
+  font-size: 14px;
+  font-weight: 600;
+  color: #dc3545;
+  margin-top: 12px;
+  font-style: italic;
+}
