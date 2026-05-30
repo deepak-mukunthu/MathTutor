@@ -10,7 +10,11 @@ An interactive math tutor and quiz master designed to help middle school student
 
 **No installation required** - click the link above to start learning math right away!
 
-📸 **[View Screenshots & Demo →](demos/DEMO.md)** - See the app in action with detailed walkthroughs
+### 📺 See It In Action
+- 🎬 **[Visual Demo Walkthrough →](demos/VISUAL_DEMO.md)** - Step-by-step screenshots showing the complete learning flow
+- 📸 **[Feature Screenshots →](demos/DEMO.md)** - Detailed look at key features with explanations
+
+> **Want to create a video demo?** See [CREATE_DEMO_VIDEO.md](CREATE_DEMO_VIDEO.md) for recording instructions
 
 ## Features
 
